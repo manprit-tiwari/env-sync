@@ -1,0 +1,41 @@
+{
+  "name": "env-sync",
+  "version": "1.0.0",
+  "description": "env-sync is a CLI tool to manage and sync environment files. It compares .env with .env.example, identifies missing or extra variables, and updates automatically. Supports custom files, multi-file comparisons, and Git hook integration, making it easier to handle environment variables in multi-project setups.",
+  "bin": {
+    "env-sync": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manprit-tiwari/env-sync.git"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "environment",
+    "cli",
+    "config",
+    "environment-variables",
+    "sync",
+    "compare",
+    "file-management",
+    "automation",
+    "devops",
+    "node",
+    "npm",
+    "git-hooks",
+    "husky",
+    "multi-project",
+    "env-sync",
+    "team-collaboration"
+  ],
+  "author": "Manprit Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manprit-tiwari/env-sync/issues"
+  },
+  "homepage": "https://github.com/manprit-tiwari/env-sync#readme"
+}
